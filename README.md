@@ -1,8 +1,8 @@
-## RStudio Community Events
+# RStudio Community Events
 
 Calendar of upcoming events & recordings. The calendar uses code from a tool called addevent.com
 
-# Data Science Hangout
+## Data Science Hangout
 
 A gathering place for current and aspiring data science leaders every Thursday at 12 ET .
 
@@ -10,6 +10,6 @@ The goal is to foster a space where we can chat about popular data science topic
 
 Please note that these sessions are also recorded and will be shared to YouTube.
 
-# RStudio Enterprise Community Meetup
+## RStudio Enterprise Community Meetup
 
 A friendly and open meetup environment for teams to share the work they are doing within their organizations, teach lessons learned, network with others, and allow us all to learn from each other. Join the group [here](https://www.meetup.com/RStudio-Enterprise-Community-Meetup/)
