@@ -1,0 +1,160 @@
+---
+title: "Untitled"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
+    theme: yeti
+    
+---
+
+<style>
+
+body {
+  padding-top:0px
+}
+
+.navbar{
+  visibility: hidden
+}
+
+</style>
+
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library("vembedr")
+```
+
+---
+
+```{=html}
+<div class="ae-emd-cal" data-calendar="wT379734" data-calendars="wT379734" data-calendars-selected="wT379734" data-configure="true" data-title="" data-title-show="true" data-today="true" data-datenav="true" data-date="true" data-monthweektoggle="true" data-subscribebtn="true" data-swimonth="true" data-swiweek="true" data-swischedule="true" data-print="true" data-timezone="true" data-logo="true" data-defaultview="month" data-firstday="1" data-datetimeformat="1" ></div><script type="text/javascript">(function(){var e = document.createElement("script");e.type = "text/javascript";e.async = true;e.src = "https://www.addevent.com/js/cal.embed.t1.init.js";e.className = "ae-emd-script";document.getElementsByTagName("body")[0].appendChild(e);})();</script>
+```
+
+Row
+-----------------------------------------------------------------------
+
+### **Data Science Hangout every Thursday**
+
+A gathering place for current and aspiring data science leaders **every Thursday at 12 ET** . 
+
+The goal is to foster a space where we can chat about popular data science topics each week. No hard agenda or predetermined talk tracks: just an expert or two willing to share their perspectives on what’s really going on in data science at an organizational level.  
+
+Please note that these sessions are also recorded and will be shared to  [YouTube.](https://www.youtube.com/playlist?list=PL9HYL-VRX0oTu3bUoyYknD-vpR7Uq6bsR)
+
+[![Add to your calendar](calendar.png)](https://www.addevent.com/event/Qv9211919)
+  
+```{r}
+embed_url("https://youtu.be/SUZw5GjKNRg")
+```
+
+```{r}
+embed_url("https://youtu.be/gdqu_WbAezY")
+```
+
+
+```{r}
+embed_url("https://youtu.be/SMN8Aut0U9g")
+```
+
+
+```{r}
+embed_url("https://youtu.be/a3ViJuhEthc")
+```
+
+
+Row
+-----------------------------------------------------------------------
+
+### **RStudio Enterprise Community Meetup**
+
+A friendly and open meetup environment for teams to share the work they are doing within their organizations, teach lessons learned, network with others, and allow us all to learn from each other. Join the group <a href="https://www.meetup.com/RStudio-Enterprise-Community-Meetup/" target="_blank">here.</a>
+
+Upcoming: 
+
+* [Leveraging R & Python in Tableau with RStudio Connect - October 29, 2021](https://www.meetup.com/RStudio-Enterprise-Community-Meetup)  
+* [R in Public SectoR: The data you were promised...and the data that you got - November 9, 2021](https://www.meetup.com/RStudio-Enterprise-Community-Meetup/)  
+* [R in Sports Analytics - NFL Big Data Bowl - November 10, 2021](https://www.meetup.com/RStudio-Enterprise-Community-Meetup/)  
+* [R in Marketing - Survey Design for Applications of Machine Learning - November 15, 2021](https://www.meetup.com/RStudio-Enterprise-Community-Meetup/) 
+* [R in Epi - November 17, 2021](https://www.meetup.com/RStudio-Enterprise-Community-Meetup/)  
+* [R in Retail & E-Commerce: ML Ops for Recommendation Engines - November 30, 2021](https://www.meetup.com/RStudio-Enterprise-Community-Meetup/)
+
+Meetup Recordings:
+
+* [R in Manufacturing & Consumer Products - March 2, 2021](https://youtu.be/jbR8P9UrsaQ)
+* [R in Insurance - April 21, 2021](https://youtu.be/rK2N47r78hc)
+* [R in Supply Chain Management - May 25, 2021](https://youtu.be/rzs6aSr4XoU)
+* [R in Sports Analytics - June 15, 2021](https://youtu.be/1zCDWtNEucI)   
+* [R in Healthcare - June 30, 2021](https://youtu.be/pHZ8dsc0PhY)  
+* [R in Marketing - July 21, 2021](https://youtu.be/Y2zoRCXgPwk)  
+* [R in Energy - August 4, 2021](https://youtu.be/l9lrRhFZs8Y)  
+* [Building your ideal showcase of data products | RStudio Connect 1.9.0 - August 17, 2021](https://youtu.be/GBNzhIkObyE)
+* [Setting up Secure Systems for Growth - September 8, 2021](https://www.youtube.com/watch?v=UnLpB4IDpZU)
+* [R in Manufacturing - September 29, 2021](https://www.youtube.com/watch?v=Ctxf0LjlB08)
+* [Business Reports with R Markdown - October 5, 2021](https://youtu.be/gQ9he9dyfGs)
+* [R in spoRts analytics! - October 13, 2021](https://youtu.be/Id2H499q8IU)
+* [Scaling Spreadsheets with R - October 13, 2021](https://youtu.be/yb_mBJz3iSc)
+
+Talk Submission:
+
+If you're interested in being a part of the speaker lineup, please fill out <a href="https://forms.gle/tUXNakkttFQBvvog8" target="_blank">this form.</a> This could be anywhere from a 10-minute lightning talk to a 45-minute presentation and there's no specific timeline. Think of this as just raising your hand to say I'd be interested at some point! Thank you so much!
+
+If you ever have feedback or suggestions, you can also use this anonymous <a href="https://forms.gle/b7EtzsCJtiPACXzQ8" target="_blank">form.</a>
+
+
+-----------------------------------------------------------------------
+
+
+### Recent Meetup Recording:
+
+```{r}
+embed_url("https://youtu.be/yb_mBJz3iSc") %>%
+  use_bs_responsive()
+```
+
+
+-----------------------------------------------------------------------
+
+### **Industry focused blog posts:**
+
+General:  
+
+* [Communicating with 8 Million People through Shiny](https://blog.rstudio.com/2021/09/14/how-do-you-use-shiny-to-communicate-to-8-million-people/)
+* [Building Effective Data Science Teams - Part 1](https://blog.rstudio.com/2021/06/03/building-effective-data-science-teams/)
+* [Building Effective Data Science Teams - Part 2](https://blog.rstudio.com/2021/06/10/building-effective-data-science-team-answering-your-questions/)
+* [Advantages of Code-First Data Science](https://blog.rstudio.com/2021/09/16/the-advantages-of-code-first-data-science/)
+
+Academic:  
+
+* [RStudio Cloud - Patricia Menendez, Monash University](https://blog.rstudio.com/2021/08/05/rstudio-cloud-an-inclusive-solution-for-learning-r/)
+* [Teaching a Biomedical Data Science Course using RStudio Cloud](https://blog.rstudio.com/2021/10/06/teaching-data-science-with-rstudio-cloud/)
+
+Finance:
+
+* [Excel and R Journey in Financial Services](https://blog.rstudio.com/2021/09/07/my-excel-and-r-journey-in-financial-services/)
+
+Healthcare:  
+
+* [Using Shiny in Healthcare: Examples from the 2021 Shiny Contest](https://blog.rstudio.com/2021/08/17/using-shiny-in-healthcare/)
+* [R in Healthcare Meetup Q&A with Chris Bumgardner, Children's Wisconsin: getting buy-in, going from concept to production](https://blog.rstudio.com/2021/08/03/r-in-healthcare-meetup-q-a/)
+
+Manufacturing:  
+
+* [How to use shinyMatrix and plotly graphs as inputs in a Shiny app](https://blog.rstudio.com/2021/09/29/how-to-use-shinymatrix-and-plotly-graphs/)
+
+Marketing:  
+
+* [Democratizing Data with R, Python, and Slack - Matthias Mueller, Campaign Monitor](https://blog.rstudio.com/2021/08/10/r-in-marketing-meetup/)
+
+Sports Analytics:  
+
+* [Advice to Aspiring Sports Analytics Professionals - Mitch Tanney, RStudio](https://blog.rstudio.com/2021/07/20/advice-to-aspiring-sports-analytics-professionals/)
+
+Supply Chain:  
+
+* [R in Supply Chain Management Meetup Q&A with Nicolas Nguyen, ZEISS](https://blog.rstudio.com/2021/06/17/r-in-supply-chain-management-meetup-q-a/)
+
+
+
+
